@@ -1,0 +1,7 @@
+# salt-minion and salt-master come from the salt apt repository and as such
+# can't be added to upstream rosdep so we have to manually add them ourselves
+# here.
+salt-minion:
+  ubuntu: [salt-minion]
+salt-master:
+  ubuntu: [salt-master]
