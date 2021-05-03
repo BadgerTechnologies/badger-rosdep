@@ -5,3 +5,14 @@ salt-minion:
   ubuntu: [salt-minion]
 salt-master:
   ubuntu: [salt-master]
+# We need a newer version of urllib3 than apt provides in order to access aws
+# s3 on xenial so we force it pull from pip. Without this we can race and only
+# the apt version will get installed. Even in the best case both apt and pip
+# version are installed in parallel. For newer version we fallback to the
+# default of the apt package.
+python-urllib3:
+  ubuntu:
+    xenial:
+      pip:
+        packages: [urllib3]
+    '*': [python-urllib3]
