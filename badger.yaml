@@ -16,3 +16,8 @@ python-urllib3:
       pip:
         packages: [urllib3]
     '*': [python-urllib3]
+# This is a hack while I wait for upstream to merge my PR
+python3-pydbus:
+  debian: [python3-pydbus]
+  fedora: [python3-pydbus]
+  ubuntu: [python3-pydbus]
