@@ -5,3 +5,7 @@ salt-minion:
   ubuntu: [salt-minion]
 salt-master:
   ubuntu: [salt-master]
+python-numpy:
+  ubuntu:
+    focal: [python3-numpy]
+    '*': [python-numpy]
