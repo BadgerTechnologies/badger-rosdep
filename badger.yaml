@@ -9,14 +9,3 @@ python-numpy:
   ubuntu:
     focal: [python3-numpy]
     '*': [python-numpy]
-python-pydbus:
-  ubuntu:
-    focal: [python3-pydbus]
-    xenial:
-      pip:
-        depends: [python-gi]
-        packages: [pydbus]
-python-gi:
-  ubuntu:
-    focal: [python3-gi]
-    '*': [python-gi]
