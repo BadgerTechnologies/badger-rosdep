@@ -5,3 +5,5 @@ salt-minion:
   ubuntu: [salt-minion]
 salt-master:
   ubuntu: [salt-master]
+python3-pykalman:
+  ubuntu: [python3-pykalman]
