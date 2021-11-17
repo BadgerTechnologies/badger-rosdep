@@ -5,3 +5,16 @@ salt-minion:
   ubuntu: [salt-minion]
 salt-master:
   ubuntu: [salt-master]
+python3-inotify:
+  debian:
+    pip:
+      packages: [inotify]
+  fedora:
+    pip:
+      packages: [inotify]
+  osx:
+    pip:
+      packages: [inotify]
+  ubuntu:
+    pip:
+      packages: [inotify]
