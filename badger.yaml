@@ -22,3 +22,5 @@ python3-pygtail:
   ubuntu: [python3-pygtail]
 python3-intelhex:
   ubuntu: [python3-intelhex]
+python3-tzlocal:
+  ubuntu: [python3-tzlocal]
