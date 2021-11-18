@@ -17,4 +17,6 @@ python3-inotify:
       packages: [inotify]
   ubuntu:
     pip:
-      packages: [inotify]
+      packages: [inotify]    
+python3-pygtail:
+  ubuntu: [python3-pygtail]
