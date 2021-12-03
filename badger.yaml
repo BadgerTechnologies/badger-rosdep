@@ -20,3 +20,5 @@ python3-inotify:
       packages: [inotify]    
 python3-pygtail:
   ubuntu: [python3-pygtail]
+python3-networkmanager:
+  ubuntu: [python3-networkmanager]
