@@ -22,6 +22,10 @@ python3-pygtail:
   ubuntu: [python3-pygtail]
 python3-networkmanager:
   ubuntu: [python3-networkmanager]
+python3-numpy-pip:
+  ubuntu:
+    pip:
+      packages: [numpy]
 python3-intelhex:
   ubuntu: [python3-intelhex]
 python3-tzlocal:
